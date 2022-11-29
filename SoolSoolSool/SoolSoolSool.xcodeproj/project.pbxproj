@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		168CE542292CB71A008EEC67 /* Sool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CE541292CB71A008EEC67 /* Sool.swift */; };
+		168CE544292CB7BA008EEC67 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CE543292CB7BA008EEC67 /* loadJson.swift */; };
+		16E39A80293633E300D3D187 /* SoolCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E39A7F293633E300D3D187 /* SoolCard.swift */; };
 		2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */; };
 		2053B56329069F60001F6C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56229069F60001F6C4C /* ContentView.swift */; };
 		2053B56529069F62001F6C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2053B56429069F62001F6C4C /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		168CE541292CB71A008EEC67 /* Sool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sool.swift; sourceTree = "<group>"; };
+		168CE543292CB7BA008EEC67 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		16E39A7F293633E300D3D187 /* SoolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolCard.swift; sourceTree = "<group>"; };
 		2053B55D29069F60001F6C4C /* SoolSoolSool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolSoolSool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolSoolSoolApp.swift; sourceTree = "<group>"; };
 		2053B56229069F60001F6C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168CE540292CB6C3008EEC67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				168CE541292CB71A008EEC67 /* Sool.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16E39A7E2936339400D3D187 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16E39A7F293633E300D3D187 /* SoolCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2053B55429069F60001F6C4C = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +73,13 @@
 		2053B55F29069F60001F6C4C /* SoolSoolSool */ = {
 			isa = PBXGroup;
 			children = (
+				16E39A7E2936339400D3D187 /* View */,
+				168CE540292CB6C3008EEC67 /* Model */,
 				2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */,
 				2053B56229069F60001F6C4C /* ContentView.swift */,
 				2053B56429069F62001F6C4C /* Assets.xcassets */,
 				2053B56629069F62001F6C4C /* Preview Content */,
+				168CE543292CB7BA008EEC67 /* loadJson.swift */,
 			);
 			path = SoolSoolSool;
 			sourceTree = "<group>";
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168CE542292CB71A008EEC67 /* Sool.swift in Sources */,
 				2053B56329069F60001F6C4C /* ContentView.swift in Sources */,
 				2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */,
+				168CE544292CB7BA008EEC67 /* loadJson.swift in Sources */,
+				16E39A80293633E300D3D187 /* SoolCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
