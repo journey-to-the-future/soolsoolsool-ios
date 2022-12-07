@@ -37,8 +37,8 @@ struct SoolCard: View {
         } // 이미지가 포함되는 그거
         .background(
             RoundedRectangle(cornerRadius: 20)
-                .foregroundColor(.gray)
-                .shadow(color: .green, radius: 1, x: 1, y: 1)
+                .foregroundColor(.white)
+                .shadow(color: .gray, radius: 1, x: 1, y: 1)
                 .opacity(1)
         )
     }
