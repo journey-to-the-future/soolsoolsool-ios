@@ -16,6 +16,7 @@
 		16E0AB09294222190041DEF8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB08294222190041DEF8 /* GoogleSignIn */; };
 		16E0AB0B294222190041DEF8 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB0A294222190041DEF8 /* GoogleSignInSwift */; };
 		16E0AB0D294223E80041DEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */; };
+		16E0AB11294224C00041DEF8 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */; };
 		16E39A80293633E300D3D187 /* SoolCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E39A7F293633E300D3D187 /* SoolCard.swift */; };
 		2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */; };
 		2053B56329069F60001F6C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56229069F60001F6C4C /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 		168CE543292CB7BA008EEC67 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
 		16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		16E0AB0E294223F60041DEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		16E39A7F293633E300D3D187 /* SoolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolCard.swift; sourceTree = "<group>"; };
 		2053B55D29069F60001F6C4C /* SoolSoolSool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolSoolSool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolSoolSoolApp.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		16E0AB0F294224050041DEF8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E0AB11294224C00041DEF8 /* AuthenticationViewModel.swift in Sources */,
 				168CE542292CB71A008EEC67 /* Sool.swift in Sources */,
 				2053B56329069F60001F6C4C /* ContentView.swift in Sources */,
 				2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */,
