@@ -18,9 +18,10 @@
 		16E0AB0D294223E80041DEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */; };
 		16E0AB11294224C00041DEF8 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */; };
 		16E0AB132942257B0041DEF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB122942257B0041DEF8 /* LoginView.swift */; };
+		16E0AB152942273A0041DEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB142942273A0041DEF8 /* ContentView.swift */; };
 		16E39A80293633E300D3D187 /* SoolCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E39A7F293633E300D3D187 /* SoolCard.swift */; };
 		2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */; };
-		2053B56329069F60001F6C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56229069F60001F6C4C /* ContentView.swift */; };
+		2053B56329069F60001F6C4C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2053B56229069F60001F6C4C /* HomeView.swift */; };
 		2053B56529069F62001F6C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2053B56429069F62001F6C4C /* Assets.xcassets */; };
 		2053B56829069F62001F6C4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2053B56729069F62001F6C4C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -32,10 +33,11 @@
 		16E0AB0E294223F60041DEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		16E0AB122942257B0041DEF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		16E0AB142942273A0041DEF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16E39A7F293633E300D3D187 /* SoolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolCard.swift; sourceTree = "<group>"; };
 		2053B55D29069F60001F6C4C /* SoolSoolSool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolSoolSool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolSoolSoolApp.swift; sourceTree = "<group>"; };
-		2053B56229069F60001F6C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2053B56229069F60001F6C4C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2053B56429069F62001F6C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2053B56729069F62001F6C4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,9 +78,10 @@
 		16E39A7E2936339400D3D187 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2053B56229069F60001F6C4C /* ContentView.swift */,
+				2053B56229069F60001F6C4C /* HomeView.swift */,
 				16E39A7F293633E300D3D187 /* SoolCard.swift */,
 				16E0AB122942257B0041DEF8 /* LoginView.swift */,
+				16E0AB142942273A0041DEF8 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,8 +211,9 @@
 			files = (
 				16E0AB11294224C00041DEF8 /* AuthenticationViewModel.swift in Sources */,
 				16E0AB132942257B0041DEF8 /* LoginView.swift in Sources */,
+				16E0AB152942273A0041DEF8 /* ContentView.swift in Sources */,
 				168CE542292CB71A008EEC67 /* Sool.swift in Sources */,
-				2053B56329069F60001F6C4C /* ContentView.swift in Sources */,
+				2053B56329069F60001F6C4C /* HomeView.swift in Sources */,
 				2053B56129069F60001F6C4C /* SoolSoolSoolApp.swift in Sources */,
 				168CE544292CB7BA008EEC67 /* loadJson.swift in Sources */,
 				16E39A80293633E300D3D187 /* SoolCard.swift in Sources */,
