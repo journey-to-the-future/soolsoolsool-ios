@@ -10,6 +10,7 @@ import FirebaseCore
 
 @main
 struct SoolSoolSoolApp: App {
+    @StateObject var viewModel = AuthenticationViewModel()
 
     init() {
         setupAuthentication()
@@ -18,7 +19,7 @@ struct SoolSoolSoolApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-               ContentView()
+                ContentView().environmentObject(viewModel)
             }
         }
     }
