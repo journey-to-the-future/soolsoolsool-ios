@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct SoolSoolSoolApp: App {
+
+    init() {
+        setupAuthentication()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+               ContentView()
+            }
         }
+    }
+}
+
+extension SoolSoolSoolApp {
+    private func setupAuthentication() {
+        FirebaseApp.configure()
     }
 }
