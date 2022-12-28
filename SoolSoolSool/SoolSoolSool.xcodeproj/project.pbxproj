@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		168CE542292CB71A008EEC67 /* Sool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CE541292CB71A008EEC67 /* Sool.swift */; };
 		168CE544292CB7BA008EEC67 /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CE543292CB7BA008EEC67 /* loadJson.swift */; };
+		16C22237295C6EF00022FAD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16C22236295C6EEE0022FAD5 /* GoogleService-Info.plist */; };
 		16E0AB00294220AD0041DEF8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AAFF294220AD0041DEF8 /* FirebaseAuth */; };
 		16E0AB02294220AD0041DEF8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB01294220AD0041DEF8 /* FirebaseDatabase */; };
 		16E0AB04294220AD0041DEF8 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB03294220AD0041DEF8 /* FirebaseDatabaseSwift */; };
 		16E0AB06294220AD0041DEF8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB05294220AD0041DEF8 /* FirebaseFirestore */; };
 		16E0AB09294222190041DEF8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB08294222190041DEF8 /* GoogleSignIn */; };
 		16E0AB0B294222190041DEF8 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16E0AB0A294222190041DEF8 /* GoogleSignInSwift */; };
-		16E0AB0D294223E80041DEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */; };
 		16E0AB11294224C00041DEF8 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */; };
 		16E0AB132942257B0041DEF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB122942257B0041DEF8 /* LoginView.swift */; };
 		16E0AB152942273A0041DEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0AB142942273A0041DEF8 /* ContentView.swift */; };
@@ -29,8 +29,8 @@
 /* Begin PBXFileReference section */
 		168CE541292CB71A008EEC67 /* Sool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sool.swift; sourceTree = "<group>"; };
 		168CE543292CB7BA008EEC67 /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
-		16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		16E0AB0E294223F60041DEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16C22236295C6EEE0022FAD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16C2223D295C75790022FAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		16E0AB10294224C00041DEF8 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		16E0AB122942257B0041DEF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		16E0AB142942273A0041DEF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,15 +105,15 @@
 		2053B55F29069F60001F6C4C /* SoolSoolSool */ = {
 			isa = PBXGroup;
 			children = (
+				16C2223D295C75790022FAD5 /* Info.plist */,
 				16E0AB0F294224050041DEF8 /* ViewModel */,
-				16E0AB0E294223F60041DEF8 /* Info.plist */,
 				16E39A7E2936339400D3D187 /* View */,
 				168CE540292CB6C3008EEC67 /* Model */,
 				2053B56029069F60001F6C4C /* SoolSoolSoolApp.swift */,
 				2053B56429069F62001F6C4C /* Assets.xcassets */,
 				2053B56629069F62001F6C4C /* Preview Content */,
 				168CE543292CB7BA008EEC67 /* loadJson.swift */,
-				16E0AB0C294223E80041DEF8 /* GoogleService-Info.plist */,
+				16C22236295C6EEE0022FAD5 /* GoogleService-Info.plist */,
 			);
 			path = SoolSoolSool;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 		2053B55529069F60001F6C4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
@@ -175,7 +175,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 2053B55429069F60001F6C4C;
 			packageReferences = (
@@ -197,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2053B56829069F62001F6C4C /* Preview Assets.xcassets in Resources */,
+				16C22237295C6EF00022FAD5 /* GoogleService-Info.plist in Resources */,
 				2053B56529069F62001F6C4C /* Assets.xcassets in Resources */,
-				16E0AB0D294223E80041DEF8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -327,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
